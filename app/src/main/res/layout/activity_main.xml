@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <Button
+        android:id="@+id/BtnTurnOn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="turnOn"
+        android:text="@string/turnOn" />
+
+    <Button
+        android:id="@+id/BtnGetVisible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="getVisible"
+        android:text="@string/getVisible" />
+
+    <Button
+        android:id="@+id/BtnListDevices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="listDevices"
+        android:text="@string/listDevices" />
+
+    <Button
+        android:id="@+id/BtnTurnOff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="turnOff"
+        android:text="@string/turnOff" />
+
+    <TextView
+        android:id="@+id/LblDevices"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
